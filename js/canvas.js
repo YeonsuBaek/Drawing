@@ -17,7 +17,7 @@ var drawStart = function(event) {
     context.beginPath();
     var xpos = event.target.offsetLeft;
     var ypos = event.target.offserTop;
-    context.moveTo(event.pageX-xpos, event.pageY-ypos);  // 정확하게는 잘 모르겠음
+    context.moveTo(event.pageX-xpos, event.pageY-ypos);
     flag = true;
 }
 var drawing = function(event) {
