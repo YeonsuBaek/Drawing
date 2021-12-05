@@ -20,7 +20,7 @@ var drawStart = function(event) {
     context.moveTo(event.pageX-xpos, event.pageY-ypos);  // 정확하게는 잘 모르겠음
     flag = true;
 }
-var drawing = function(event) {   // 어떻게 하면.....캔버스 크기를 키워도 그림을 그릴 수 있을가....
+var drawing = function(event) {
     if (flag) {
         var xpos = event.target.offsetLeft;
         var ypos = event.target.offsetTop;
